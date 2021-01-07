@@ -1,0 +1,62 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 27.21.14.5638]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Default GameObject BitMask: UI already registered
+ 
+(Filename:  Line: 88)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\dfScriptLite.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\dfScriptLite.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\P31RestKit.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\P31RestKit.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\TcpClientImplementation.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\TcpClientImplementation.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Ionic.Zip.Reduced.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\HOTween.dll (this message is harmless)
+Loading D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\HOTween.dll into Unity Child Domain
+- Completed reload, in  0.069 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3280x1080 at -1360,0
+<RI> Initialized touch support.
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: D:\Steam Programs\steamapps\common\Deepworld\Deepworld_Data\Managed\System.Xml.dll (this message is harmless)
+[MainMenu] Prepare took 0 seconds
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Error reading skeleton JSON file for skeleton data asset: 
+Region not found in atlas: pigeon-collar (region)
+  at Spine.AtlasAttachmentLoader.NewAttachment (Spine.Skin skin, AttachmentType type, System.String name) [0x00000] in <filename unknown>:0 
+  at Spine.SkeletonJson.ReadAttachment (Spine.Skin skin, System.String name, System.Collections.Generic.Dictionary`2 map) [0x00000] in <filename unknown>:0 
+  at Spine.SkeletonJson.ReadSkeletonData (System.IO.TextReader reader) [0x00000] in <filename unknown>:0 
+  at SkeletonDataAsset.GetSkeletonData (Boolean quiet) [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
